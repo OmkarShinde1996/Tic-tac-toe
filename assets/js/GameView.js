@@ -11,6 +11,7 @@ export default class GameView {
 
             if(winningCombination2 && winningCombination2.includes(i)){
                 tile.classList.add('tile-winner')
+                document.querySelector('.victory').play()
             }
         }
     }
